@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Exercícios de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        caption {
+            font-weight: bold;
+            padding: 10px;
+        }
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+        .amarelo {
+            background-color: rgb(238, 241, 3);
+        }
+        .vermelho {
+            background-color: rgb(221, 4, 4);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de tabela</h1>
+    
+    <table>
+        <colgroup>
+            <col class="amarelo">
+            <col class="vermelho">
+            <col class="amarelo">
+            <col class="vermelho">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ernesto Major Q</td>
+            <td>M</td>
+            <td>21</td>
+            <td>Informático</td>
+        </tr>
+        <tr>
+            <td>Diolinda</td>
+            <td>F</td>
+            <td>17</td>
+            <td>Gestora</td>
+        </tr>
+        <tr>
+            <td>Claudio</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>27</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Domingos</td>
+            <td>M</td>
+            <td>12</td>
+            <td>Mecânico</td>
+        </tr>
+        <tr>
+            <td>Margarida</td>
+            <td>F</td>
+            <td>19</td>
+            <td>Infermeira</td>
+        </tr>
+    </table>
+</body>
+</html>
