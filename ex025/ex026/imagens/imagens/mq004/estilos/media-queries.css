@@ -23,11 +23,9 @@ Grandes Telas: acima de 1366px
         font-family: 'Courier New', Courier, monospace;
         color: rgb(51, 51, 51);
     }
-    img#smartphone {display: none;}
+    
     img#impressora {display: block;}
-    img#tablet {display: none;}
-    img#tv {display: none;}
-    img#desktop {display: none;}
+    img#smartphone {display: none;}
 }
 
 @media screen and (min-width:768px) and (max-width:992px) { /* Tablet */
@@ -35,10 +33,7 @@ Grandes Telas: acima de 1366px
         background-image: url(../imagens/back-tablet.jpg);
     }
     img#smartphone {display: none;}
-    img#impressora {display: none;}
     img#tablet {display: block;}
-    img#tv {display: none;}
-    img#desktop {display: none;}
 
     main {
         background-color: rgba(201, 201, 202, 0.473);
@@ -51,9 +46,6 @@ Grandes Telas: acima de 1366px
         background-image: url(../imagens/back-pc.jpg);
     }
     img#smartphone {display: none;}
-    img#impressora {display: none;}
-    img#tablet {display: none;}
-    img#tv {display: none;}
     img#desktop {display: block;}
 
     main {
@@ -66,10 +58,7 @@ Grandes Telas: acima de 1366px
         background-image: url(../imagens/back-tv.jpg);
     }
     img#smartphone {display: none;}
-    img#impressora {display: none;}
-    img#tablet {display: none;}
     img#tv {display: block;}
-    img#desktop {display: none;}
 
     main {
         background-color: rgba(240, 248, 255, 0.568);
