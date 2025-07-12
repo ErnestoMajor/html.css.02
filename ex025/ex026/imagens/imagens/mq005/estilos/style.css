@@ -46,7 +46,7 @@ menu > ul > li > a {
     text-decoration: none;
     text-align: center;
     background-color: rgb(44, 44, 44);
-    border-top: 3px solid rgb(20, 19, 19);
+    border-top: 3px solid rgba(49, 48, 48, 0.849);
     display: block;
     padding: 15px;
 

@@ -6,8 +6,9 @@
     <title>Media Query</title>
     <link rel="stylesheet" href="https://img.icons8.com/material-rounded/24/menu--v1.png">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudoutamanho()">
     <header>
         <h1>Meu Site</h1>
         <div id="burguer" class="icons8-menu" onclick="clickMenu()">
@@ -48,6 +49,15 @@
                 itens.style.display = "none"
             } else {
                 itens.style.display = "block"
+            }
+        }
+
+        function mudoutamanho() {
+            if (window.innerWidth  >= 600) {
+                itens.style.display = "block"
+            } 
+            else {
+                itens.style.display = "none"
             }
         }
     </script>
