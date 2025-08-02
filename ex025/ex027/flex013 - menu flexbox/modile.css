@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+header, header > nav {
+    flex-flow: column nowrap;
+}
+
+header > h1 {
+    flex-basis: 50px;
+    color: rgb(51, 51, 51);
+    text-shadow: 1px 2px 1px white;
+}
+
+header > nav > a {
+    width: 90vw;
+}
+
+main {
+    height: 40vh;
+}
+
+main > h2 {
+    line-height: 50px;
+}
