@@ -3,30 +3,27 @@
 div.container {
     display: grid;
     grid-template-rows: repeat(3,100px);
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: 2fr 4fr 2fr ;
     gap: 5px;
 }
 
-.caixa1 {
+.topo {
     background-color: blue;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 5;
+
 }
 
-.caixa2 {
+.menu {
+   background-color: red;
+}
+
+.principal {
     background-color: yellow;
-    grid-row-start: 2;
-    grid-row-end: 4;
-    grid-column-start: 1;
-    grid-column-end: 3;
 }
 
-.caixa3 {
-    background-color: red;
-    grid-row-start: 2;
-    grid-row-end: 4;
-    grid-column-start: 3;
-    grid-column-end: 5;
+.secundario {
+    background-color: black;
+}
+
+.rodape {
+    background-color: green;
 }
